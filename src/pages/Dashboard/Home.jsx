@@ -4,7 +4,7 @@ import { Context } from '../../context/Context';
 import SpotifyWebApi from 'spotify-web-api-node';
 import { CLIENT_ID } from '../../hook/useEnv';
 import Back from "../../assets/images/Back.svg"
-import Forward from "../../assets/images/forward.svg"
+import Forward from "../../assets/images/Forward.svg"
 
 
 const MusicItem = lazy(() => new Promise(resolve => {
